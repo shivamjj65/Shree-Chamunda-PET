@@ -1,0 +1,11 @@
+.slides {
+  padding: 0px, 590px;
+  width: 680px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d-block {
+  height: 480px;
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato");
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+/* --------- */
+/* Home */
+/* --------- */
+
+.home-section {
+  margin: auto;
+  position: relative;
+  z-index: -1;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 0px !important;
+}
+
+.home-header-row{
+  margin: auto;
+  padding: 25px 0px;
+  text-align: center;
+}
+
+.home-data {
+  display: inline;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}

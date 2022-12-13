@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato");
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+#navbar {
+  background: transparent;
+  transition: all 0.5s ease;
+  background-image: linear-gradient(to right, #0b1826, #303130);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.logotext {
+  display: inline-block;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    #cb9b51 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #cb9b51 100%
+  ) !important;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: 550;
+}
+.logotext:hover{
+  cursor: none;
+}
+
+
+
+#nav {
+  align-items: center;
+}
+#navItem {
+  padding-left: 20px;
+  background-image: linear-gradient(
+    to right,
+    #cb9b51 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #cb9b51 100%
+  ) !important;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.navItem{
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.navbar-toggler span {
+  display: block !important;
+  background-color: #f6e27a !important;
+  height: 2px !important;
+  width: 15px !important;
+  margin-top: 0px !important;
+  margin-bottom: 3px !important;
+  transform: rotate(0deg) !important;
+  left: 0 !important;
+  opacity: 1 !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: 0 !important;
+}
+
+
+
+@media (max-width: 767px) {
+  .navbar {
+    background: transparent;
+    transition: all 0.5s ease;
+    background-image: linear-gradient(to right, #0b1826, #303130);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin: auto;
+  }
+  .logo {
+    margin: auto;
+  }
+  .logotext {
+    margin: auto;
+    font-size: 20px;
+  }
+  .navItem {
+    background-image: linear-gradient(
+      to right,
+      #cb9b51 0,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #cb9b51 100%
+    ) !important;
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-size: 14px !important;
+    font-weight: lighter;
+  }
+}
