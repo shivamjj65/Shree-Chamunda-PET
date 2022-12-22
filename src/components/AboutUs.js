@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import "./css/AboutUs.css";
 
-function AboutUs() {
+export default function AboutUs() {
   return (
     <div>
       <Container fluid className="about-section" id="about">
@@ -35,5 +35,3 @@ function AboutUs() {
     </div>
   );
 }
-
-export default AboutUs;

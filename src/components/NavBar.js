@@ -1,9 +1,9 @@
 import React, {useState} from "react";
-import { Container, Nav, NavDropdown, Navbar, NavItem } from "react-bootstrap";
+import { Container, Nav, Navbar} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./css/NavBar.css";
 
-function NavBar() {
+export default function NavBar() {
 
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -18,7 +18,7 @@ function NavBar() {
       id="navbar" 
       >
         <Container fluid>
-          <Navbar.Brand to="/" className="logo">
+          <Navbar.Brand to="/" className="justify-content-center">
             <h2 className="logotext">Shree Chamunda PET</h2>
           </Navbar.Brand>
           <Navbar.Toggle
@@ -36,6 +36,16 @@ function NavBar() {
           <Nav.Item id="navItem">
               <Nav.Link id="navLink" as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <h4 className="navItem">Home</h4>
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item id="navItem">
+              <Nav.Link
+                as={Link}
+                to="/Products"
+                onClick={() => updateExpanded(false)}
+              >
+                <h4 className="navItem">Products</h4>
               </Nav.Link>
             </Nav.Item>
 
@@ -65,5 +75,3 @@ function NavBar() {
     </>
   );
 }
-
-export default NavBar;

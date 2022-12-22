@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato");
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+.home-section {
+  margin: auto;
+  position: relative;
+  z-index: -1;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 0px !important;
+}
+
+.product-header {
+  margin: auto;
+  padding: 25px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.product-row, .product-col{
+  margin: 2%;
+  padding: 0px;
+
+}
+
+
+/* CARD */
+.card{
+  margin: auto;
+  padding: 5%;
+  align-items: center;
+  height:100%;
+}
+.card-img{
+  height: 100px;
+  width: 100px;
+}

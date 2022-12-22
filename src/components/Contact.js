@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Container } from "react-bootstrap";
 import './css/Contact.css';
 
-function Contact(){
+export default function Contact(){
     return(
         <div>
             <Container fluid className="contact-section">
@@ -19,7 +19,8 @@ function Contact(){
                 <p className="contact-header">Address</p>
             </Row>
             <Row className="contact-row">
-                <p className="contact-data">Building no 9c, sagar Industrial Estate, Dhumal Nagar, Vasai East, Vasai, Thane-401208, Maharashtra, India</p>
+                <p className="contact-data">Gala No 1&2, Aman Industrial Estate, Dhumal Nagar, Near Rashmi
+                  Bungalow, Vasai East - 401208, Maharashtra, India.</p>
             </Row>
             <Row className="contact-row">
                 <p className="contact-header">Contact Number</p>
@@ -31,5 +32,3 @@ function Contact(){
         </div>  
     );
 }
-
-export default Contact;

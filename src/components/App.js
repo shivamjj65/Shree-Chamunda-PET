@@ -1,9 +1,11 @@
 import React from 'react';
-import NavBar from "./NavBar";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Home from "./Home";
+import NavBar from "./NavBar";
+import Home from './Home';
+import Products from './Products';
 import AboutUs from './AboutUs';
 import Contact from './Contact';
+import Foot from './Footer';
 import './css/App.css';
 
 function App() {
@@ -13,15 +15,12 @@ function App() {
       <NavBar/> 
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/Products" element={<Products/>}/>
         <Route path="/AboutUs" element={<AboutUs/>}/>
         <Route path="/Contact" element={<Contact/>}/>
       </Routes>
       </Router>
-      {/* <Router>                
-             <Route path='/AboutUs' component={AboutUs}/>  
-             <Route path='/Contact' component={Contact}/>               
-             <Route path='/' component={Home}/>            
-      </Router> */}
+      <Foot/>
     </div>
   );
 }

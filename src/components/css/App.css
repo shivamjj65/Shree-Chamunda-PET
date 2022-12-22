@@ -17,15 +17,56 @@
   padding-top: 0px !important;
 }
 
-.home-header-row{
+.home-header{
   margin: auto;
   padding: 25px 0px;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
 }
 
 .home-data {
   display: inline;
   margin: auto;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  
+}
+
+/* CAROUSEL */
+.slides {
+  /* padding: 0px, 590px; */
+  display: block;
+  margin: auto;
+  padding: 0% 5%;
+  opacity: 80%;
+}
+
+.d-block {
+  height: 480px;
+}
+
+.title{
+  text-transform: uppercase;
+  font-family: "Montserrat",sans-serif;
+  font-weight: bolder;
+}
+
+
+/* CARD */
+.card{
+  margin: 8%;
+  padding: 5%;
+  align-items: center;
+  height:100%;
+}
+.card-img{
+  height: 100px;
+  width: 100px;
+}
+
+
+/* FOOTER */
+#footer-link{
+  font-size: 0.8rem;
 }
